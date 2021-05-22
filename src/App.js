@@ -1,8 +1,9 @@
-// import { useEffect } from "react";
+import { useState } from "react";
 import Row from "./components/Row";
 import "./App.css";
 import request from "./request";
 import Banner from "./components/Banner";
+import Nav from "./components/Nav";
 
 function App() {
   // const api_request = "https://api.themoviedb.org/3/movie/550?api_key=b2e9c556714ab609a377a12125a2edfa";
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <div className="app">
+        <Nav />
         <Banner />
         <Row
           title="Netflix Originals"

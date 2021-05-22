@@ -1,13 +1,14 @@
 .banner {
   position: relative;
-  height: 350px;
+  height: 400px;
   width: 100%;
   overflow: hidden;
+  z-index: 99;
 }
 
 .banner_content {
   width: 45%;
-  padding: 50px 10px 10px 10px;
+  padding: 100px 10px 10px 10px;
 }
 
 .banner_title {

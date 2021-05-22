@@ -15,7 +15,7 @@ const Banner = () => {
     const getData = async () => {
       isLoading(true);
       await axios
-        .get(instance + request.fetchTrending)
+        .get(instance + request.fetchNetflixOriginals)
         .then((res) => {
           const ban = Math.floor(Math.random() * res.data.results.length - 1);
           setBanner(res?.data?.results[ban]);

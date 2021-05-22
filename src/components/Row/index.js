@@ -32,9 +32,7 @@ const Row = ({ title, fetchUrl, isPoster }) => {
 
   return (
     <div className="movies">
-      <center>
-        <h1 className="title">{title}</h1>
-      </center>
+      <h1 className="title">{title}</h1>
       <div className="movie_posters">
         {loading ? (
           <div className="loader">
